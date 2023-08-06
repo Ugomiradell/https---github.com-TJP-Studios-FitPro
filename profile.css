@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Roboto:wght@500&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    display: flex;
+}
+
+.logo {
+    width: 30%;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+
+.logo img {
+    width: 40%;
+}
+
+.search {
+    display: flex;
+    width: 40%;
+    margin-top: 2%;
+    border: 1px solid gray;
+    height: 0%;
+}
+
+.search-button {
+    width: 18%;
+}
+
+.search-button img {
+    width: 35%;
+    margin-left: 45%;
+    margin-top: 14%;
+    margin-bottom: 10%;
+
+}
+
+input {
+    margin-top: 6%;
+    border: none;
+}
+
+.navbar {
+    display: flex;
+    width: 130%;
+    margin-top: 0.5%;
+    justify-content: space-around;
+    padding: 2%;
+    color: rgba(2, 15, 34, 0.60);
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(2, 15, 34, 0.60);
+}
+
+.section1 {
+    margin-top: 3%;
+    display: flex;
+}
+
+.lefty1 {
+    margin-left: 5%;
+}
+
+.righty1 {
+    position: absolute;
+    line-height: 3vh;
+    margin-left: 55%;
+    margin-top: 10%;
+    width: 43%;
+
+}
+
+.lefty2 {
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+.righty2 {
+position: absolute;
+margin-left: 55%;
+margin-top: 5%;
+
+}
+
+section3 {
+    display: flex;
+}
+
+.lefty3 {
+    margin-top: 52%;
+    margin-left: 5%; 
+}
+
+.righty3 {
+    position: absolute;
+    margin-left: 55%;
+    top: 235%;
+    
+}
+
+.lefty4 {
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 15%;
+}
+
+.righty4 {
+    position: absolute;
+    top: 310%;
+    margin-left: 55%;
+}
+.lefty5 {
+    margin-left: 5%;
+    margin-top: 55%;
+}
+
+.righty5 {
+    position: absolute;
+    margin-left: 55%;
+    top: 435%;
+}
+
+h1 {
+    margin-bottom: 4%;
+    font-size: xx-large;
+    font-weight: 700;
+    color: var(--nuetral-60, #020F22);
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-size: larger;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    width: 30%;
+    line-height: 280%;
+    margin-top: 10%;
+    border: none;
+    color: #F5F5F5;
+    background-color: #DE350B;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 550;
+
+}
+
+.view-more {
+    position: absolute;
+    width: 12%;
+    margin-left: 45%;
+    color: #DE350B;
+    background-color: unset;
+    border: 2px solid #DE350B;
+}
+
+.schedule-dropdown-menu {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .schedule-dropdown-menu {
+        display: inline;
+    }
+}
